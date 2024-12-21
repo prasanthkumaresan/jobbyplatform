@@ -1,0 +1,64 @@
+.main-container {
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-container {
+  background-color: #272727;
+  height: 400px;
+  width: 380px;
+  border-radius: 8px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'roboto';
+}
+.website-logo {
+  height: 50px;
+  width: 130px;
+  margin-bottom: 40px;
+  margin-top: -25px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.name-label {
+  color: white;
+  font-size: 12px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.name-box {
+  border: 1px solid #7e858e;
+  padding: 5px 16px 5px 8px;
+  width: 300px;
+  color: #7e858e;
+  background-color: #272727;
+  outline: none;
+  margin-bottom: 20px;
+  height: 30px;
+}
+.login-btn {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #4f46e5;
+  border-radius: 8px;
+  width: 300px;
+  border-width: 0px;
+  height: 35px;
+  cursor: pointer;
+}
+.msg-error {
+  color: red;
+  font-family: 'roboto';
+  font-size: 12px;
+  align-self: flex-start;
+  margin-left: 10px;
+}

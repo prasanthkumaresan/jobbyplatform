@@ -1,0 +1,14 @@
+.nf-cont {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  
+}
+.nf-main{
+    font-family: "roboto";
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}

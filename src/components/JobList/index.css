@@ -1,0 +1,90 @@
+.details-container {
+  background-color: #272727;
+  width: 90%;
+  padding: 18px;
+  font-family: 'roboto';
+  margin-bottom: 15px;
+  margin-top: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.job-title-container {
+  display: flex;
+}
+.company-logo {
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+  align-self: center;
+}
+.job-title {
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+.rating-container {
+  display: flex;
+  margin-left: 10px;
+}
+.rating-icon {
+  size: 20;
+  color: yellow;
+  margin-right: 10px;
+  align-self: center;
+}
+.rating-num {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+.location-container {
+  display: flex;
+  justify-content: space-between;
+}
+.job-logo-cont {
+  display: flex;
+}
+.job-logo-cont1 {
+  display: flex;
+  margin-left: 10px;
+}
+.location-logo {
+  color: white;
+  size: 20;
+  align-self: center;
+}
+.location {
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  align-self: center;
+  margin-left: 5px;
+}
+.package-text {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+.line {
+  border: 1px solid #64748b;
+  width: 100%;
+  margin-top: 0px;
+}
+.list-job-description {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+.description-text {
+  color: white;
+  font-size: 12px;
+  line-height: 22px;
+}
+.location-first {
+  display: flex;
+}
+.link-decoration {
+  text-decoration: none;
+}

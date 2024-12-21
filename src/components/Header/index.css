@@ -1,0 +1,41 @@
+.nav-container {
+  background-color: #272727;
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+.nav-web-logo {
+  height: 40px;
+  width: 130px;
+}
+.options-cont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 280px;
+}
+.nav-options {
+  font-family: 'roboto';
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.logout-btn {
+  background-color: #6366f1;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  height: 33px;
+  width: 100px;
+  border-width: 0px;
+  align-self: center;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.link-msg {
+  text-decoration: none;
+}

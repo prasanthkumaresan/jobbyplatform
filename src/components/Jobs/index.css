@@ -1,0 +1,152 @@
+.jobs-container {
+  background-color: black;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.job-container {
+  width: 70%;
+}
+.jobs-contentcontainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  padding: 20px;
+}
+.filters-container {
+  width: 40%;
+}
+.job-search-container {
+  width: 60%;
+}
+.job-search-input-container {
+  border: 1px solid #b6c5ff;
+  width: 250px;
+  height: 35px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.job-input {
+  width: 250px;
+  padding: 5px 10px 5px 10px;
+  outline: none;
+  border: none;
+  color: #64748b;
+  font-family: 'roboto';
+  font-size: 15px;
+  background-color: transparent;
+}
+.search-icon-btn {
+  border-width: 0px;
+  width: 30px;
+  height: 33px;
+  background-color: #272727;
+  border-radius: 8px;
+}
+.search-icon {
+  size: 20;
+  color: white;
+}
+.arrange {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-image {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.user-name {
+  font-family: 'roboto';
+  color: #6366f1;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+}
+.user-bio {
+  font-family: 'roboto';
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+}
+.profile-bg-cont {
+  height: 100%;
+  width: 100%;
+  background-color: #d4ddfd;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+}
+.profile-container {
+  height: 220px;
+  width: 80%;
+}
+.filters-container {
+  width: 40%;
+}
+.small-line {
+  width: 83%;
+  border: 1px solid #64748b;
+  margin-top: 20px;
+  margin-left: -5px;
+}
+.type-of-job {
+  color: white;
+  font-size: 13px;
+  font-family: 'roboto';
+}
+.filter1-header {
+  color: white;
+  font-size: 18px;
+  font-family: 'roboto';
+}
+.package-list {
+  list-style-type: none;
+}
+.list-order {
+  padding-left: 0;
+}
+.retry-button {
+  background-color: #6366f1;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  height: 33px;
+  width: 100px;
+  border-width: 0px;
+  align-self: center;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.retry-cont {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+.failure-view {
+  font-family: 'roboto';
+  color: white;
+  height: 800px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no-jobs-image {
+  height: 300px;
+  width: 300px;
+}
